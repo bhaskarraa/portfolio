@@ -7,7 +7,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://bhskarraa.github.io',
-	base: '/',
+	base: '/portfolio/',
 	output: 'static',
 	integrations: [mdx(), sitemap()],
 });
